@@ -24,7 +24,7 @@ public class View_subjects extends AppCompatActivity {
 ////    private Button delete = (Button) findViewById(R.id.delete_b);
 //    private RecyclerView recyclerView = (RecyclerView) findViewById(R.id.subject_cycle);
 //    List<Subjects> SubjectList = new ArrayList<>();
-//    private Toolbar toolbar;
+//    private android.support.v7.widget.Toolbar toolbar;
     private FloatingActionButton add;
     private RecyclerView recyclerView;
     private Context context;
