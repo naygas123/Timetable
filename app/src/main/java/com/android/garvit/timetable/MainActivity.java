@@ -32,13 +32,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-//        timetable_cv.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, View_timetable.class);
-//                startActivity(intent);
-//            }
-//        });
+        timetable_cv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, View_timetable.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
